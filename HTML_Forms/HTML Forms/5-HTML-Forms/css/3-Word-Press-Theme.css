@@ -1,0 +1,47 @@
+html {
+  background-color: #e5e5e5;
+}
+
+body {
+  margin: auto;
+  width: 600px;
+  height: auto;
+
+}
+
+div {
+  background-color: white;
+  border-radius: 8px;
+  padding: 4%;
+  margin: 5%;
+}
+
+header {
+  text-align: center;
+}
+
+form {
+  margin-left: 3%;
+}
+
+form>input {
+  display: inline-block;
+
+}
+
+button {
+  background-image: url('../resources/wp-logo.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  display: inline;
+  margin: -0.3% 0 0% 1%;
+}
+
+button.image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

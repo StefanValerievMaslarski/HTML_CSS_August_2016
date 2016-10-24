@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="css/2-Flight-Order.css">
+  </head>
+	<body>
+  <form>
+    <h1>Flight order</h1>
+      <div class="left">
+        <p>From</p>
+            <select id="from" tabindex="1" name="from-city">
+              <option>enter a city</option>
+              <option>Varna</option>
+              <option>Plovdiv</option>
+              <option>Sofia</option>
+            </select>
+        <p>Departure Date</p>
+            <input name="departure-date" type="date" value="2014-06-09" />
+        <p>Return Date</p>
+            <input name="return-date" type="date" value="2014-06-13" />
+    <div class="small">
+        <p>12+</p>
+            <select tabindex="1" placeholder="0" name="12+">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+        <p>2-12</p>
+            <select tabindex="1" placeholder="0" name="und12">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+          </select>
+        <p>0-2</p>
+            <select tabindex="1" placeholder="0" name="und2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+          </select>
+      </div>
+    </div>
+      <div class="right">
+        <p>To</p>
+            <select id="to" tabindex="1" name="to-city">
+                <option>enter a city</option>
+                <option>Budapest</option>
+                <option>Paris</option>
+                <option>Vienna</option>
+                <option>Moscow</option>
+                <option>Ljubljana</option>
+            </select>
+            <div>
+              <input id="prefer-directs" type="checkbox" name="prefer-directs">
+              <label for="prefer-directs">Prefer directs</label>
+            </div>
+       <p>Time interval</p>
+            <input name="time-int-departure" type="time" value="00:20" />
+            <input name="time-int2-departure" type="time" value="05:00" />
+       <p>Time interval</p>
+            <input name="time-return1"type="time" value="16:00" />
+            <input name="time-return2" type="time" value="22:00" />
+       <p>Choose class</p>
+            <select tabindex="1" name="class">
+               <option>Economy</option>
+               <option>VIP</option>
+               <option>second</option>
+               <option>third</option>
+             </select>
+            <button type="submit" name="Search">Search</button>
+          </div>
+      </form>
+  </body>
+</html>

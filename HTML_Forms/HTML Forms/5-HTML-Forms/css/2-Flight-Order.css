@@ -1,0 +1,91 @@
+form {
+  font-family: arial, San-serif;
+  background-color: #c9c9c9;
+  display: inline-block;
+  width: 600px;
+  height: 370px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 24pt;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+  font-size: 9pt;
+  margin: 1%;
+}
+
+div.left {
+  width: 250px;
+  display: inline-block;
+  float: left;
+  margin-left: 8%;
+}
+
+div.right {
+  width: 300px;
+  display: inline-block;
+  float: right;
+
+}
+
+select#from {
+  width: 220px;
+  padding: 1%;
+}
+
+select#to {
+  width: 220px;
+  padding: 1%;
+}
+
+input {
+  width: 210px;
+  padding: 1%;
+}
+
+div.right input {
+  width: 100px;
+}
+
+div.right select {
+  width: 220px;
+  padding: 1%;
+}
+
+div.small {
+  width: 200px;
+  display: block;
+  margin: 0;
+}
+
+button {
+  width: 220px;
+  height: 40px;
+  margin: 4% 0;
+  background-color: #3e5050;
+  border-width: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background-color: #e9eded;
+  color: black;
+}
+
+div label {
+  font-size: 9pt;
+  font-style: italic;
+  display: inline-block;
+  margin: 0% 0% 0% -14%;
+}
+
+input#prefer-directs {
+  margin: 2% 0 2% -14%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="css/6-Room-reservation.css">
+  </head>
+	<body>
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+    <section>
+        <h2>Basic Information</h2>
+          <form action="#" id="srform">
+            <span>Search:</span> <input type="text" name="search">
+          </form>
+          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.</div>
+    </section>
+
+      <form method="post" action="#" id="mainForm">
+          <legend id="first">
+            <h2>Personal Details</h2>
+              <input type="text" name="fname" placeholder="First name" pattern="[A-Za-z]+" required="true" />
+              <input type="text" name="lname" placeholder="Last name" pattern="[A-Za-z]+" required="true"/>
+              <input type="email" name="email" placeholder="Enter Email" required="true" />
+          </legend>
+
+          <legend id="second">
+            <h2>Request a reservation</h2>
+              <div>
+                <span>Select a room:</span>
+                  <br />
+                  <select tabindex="1" name="country" id="selectRoom">
+                    <option value="Room1">Room 1</option>
+                    <option value="Room2">Room 2</option>
+                    <option value="Room3" selected>Room 3</option>
+                    <option value="Room4">Room 4</option>
+                  </select>
+              </div>
+            <div>
+              <span>Number of Rooms:</span>
+                <br />
+                <input id="numRoom" type="number" min="1" max="4" value="1"/>
+              </div>
+            <div>
+              <span>Check-In:</span>
+                <br />
+                <input id="chekIn" type="date"/>
+              </div>
+            <div>
+              <span>Check-Out:</span>
+                <br />
+                <input id="chekOut" type="date"/>
+              </div>
+          </legend>
+      </form>
+    <button type="submit" name="submit" onclick="alert('Your request has been sent!')">Book Now</button>
+	</body>
+</html>

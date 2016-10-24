@@ -1,0 +1,104 @@
+html {
+  background-color: #8187ff;
+}
+
+
+div#style {
+  background-color: white;
+  width: 1150px;
+  padding: 1%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+h1 {
+    margin: 10px 0 20px 0;
+    font-size: 24pt;
+}
+
+section {
+    width: 55%;
+    color: #2C425A;
+    display: inline-block;
+    margin-left: 6.5%;
+}
+
+article {
+    display: inline-block;
+    padding: 2px;
+    width: 200px;
+    height: 250px;
+
+}
+
+article > div {
+    border: solid 1px #DEF0FB;
+    border-radius: 5px 5px 0 5px;
+    margin: 3px;
+
+}
+
+h3 {
+    color: #2C425A;
+    margin: 5px 8px 0px 8px;
+}
+
+a {
+    color: #2C425A;
+}
+
+div {
+    margin-left: 8px;
+}
+
+img {
+    width: 166px;
+    height: 98px;
+    margin: 5px auto;
+    display: block;
+}
+
+.price {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.price div {
+    background: #2C425A;
+    color: white;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+article:hover{
+    border: solid 2px #8187ff;
+    padding: 0;
+}
+
+form {
+    background: #F7FCFF;
+    color: #2C425A;
+    border: solid 1px #DEF0FB;
+    display: inline-block;
+    padding: 8px;
+        margin-left: 5%;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin: 8px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+input{
+    width: 200px;
+}

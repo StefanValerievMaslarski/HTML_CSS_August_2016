@@ -1,0 +1,51 @@
+.inner-wrapper {
+	background-color: #234465;
+	height: 300px;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: 2px solid #ffa800;
+    width: 155px;
+    height: 26px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 29px;
+}
+.apply-button {
+	padding-left: 58px;
+    width: 126px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+ul li {
+	list-style: none;
+	color: white;
+	padding-bottom: 3px;
+}
+h2 {
+    color: #ffa800;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.block {
+	float: left;
+	margin-top: 31px;
+	margin-left: 24px;
+}
+ul {
+	margin-left: -39px;
+}
+p {
+	color: white;
+	font-size: 14px;
+}
+.learning-system {
+	max-width: 239px;
+}
+.block-iframe {
+	width: 30px;
+	height: 30px;
+}

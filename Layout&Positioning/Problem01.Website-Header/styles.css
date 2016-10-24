@@ -1,0 +1,74 @@
+body {
+	padding: 0;
+    margin: 0;
+}
+.inner-wrapper {
+	background-color: #234465;
+	height: 85px;
+}
+p {
+	color: white;
+	text-transform: uppercase;
+}
+ul {
+	margin-left: 183px;
+	margin-top: -24px;
+	position: absolute;
+}
+ul li a {
+	color: white;
+	text-transform: uppercase;
+	padding-right: 89px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+ul li {
+	list-style: none;
+	float: left;
+}
+img {
+	padding-left: 19px;
+    padding-top: 13px;
+}
+.upper-div {
+	float: right;
+	display: inline-block;
+	padding-right: 45px;
+}
+select {
+	text-transform: uppercase;
+	color: white;
+	background-color: #234465;
+	border: none;
+}
+.notifications {
+	background-image: url(images/bell.png);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+	display: inline-block;
+	padding-right: 30px;
+	font-weight: bold;
+	font-size: 17px;
+}
+input[name=search] {
+	width: 205px;
+	height: 28px;
+	border-radius: 6px;
+    border: 1px solid #c4c4c4;	
+	color: #c4c4c4;
+    background-image: url(images/magnifier.png);
+	background-repeat: no-repeat;
+	background-position: 183px center;
+}
+hr
+{
+	width: 0px;
+    height: 26px;
+    border: 1px solid #c4c4c4;
+    position: absolute;
+    right: 73px;
+    top: 6px;
+} 
+a {
+	text-decoration: none;
+}

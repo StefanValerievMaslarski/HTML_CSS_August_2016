@@ -1,0 +1,101 @@
+body {
+  background-color: #3C5898;
+  color: white;
+  font-family: arial;
+  width: 1366px;
+}
+
+h1 {
+  font-size: 72pt;
+  text-align: center;
+  margin:0;
+}
+
+h2 {
+  font-size: 24pt;
+  text-align: center;
+  margin:0;
+}
+
+h3 {
+  font-size: 12pt;
+  text-align: center;
+}
+
+form {
+  margin-top: 3%;
+  display: block;
+  width: 1366px;
+}
+
+label {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+form fieldset.left {
+  width: 350px;
+  height: 242px;
+  border-radius: 10px;
+  margin-left: 15%;
+}
+
+form fieldset.right {
+  width: 500px;
+  border-radius: 10px;
+  margin: -19.3% 0 0% 45%;
+}
+
+fieldset.left input {
+  padding: 1% 6% 1% 0%;
+  margin-bottom: 5%;
+}
+
+fieldset.right input {
+  padding: 1% 1% 1% 0;
+  margin-bottom: 3%;
+}
+
+fieldset.right select {
+  padding: 1% 6% 1% 0%;
+  margin-bottom: 3%;
+}
+
+input.small {
+  width: 40px;
+}
+
+input#displayColor {
+  width: 150px;
+  height: 30px;
+}
+
+p {
+  margin:0;
+}
+
+div.buttons {
+  margin-left: 55%;
+}
+
+button {
+    background: #cbdbfa;
+    background-image: -webkit-linear-gradient(top, #cbdbfa, #dde7fc);
+    background-image: -moz-linear-gradient(top, #cbdbfa, #dde7fc);
+    background-image: -ms-linear-gradient(top, #cbdbfa, #dde7fc);
+    background-image: -o-linear-gradient(top, #cbdbfa, #dde7fc);
+    background-image: linear-gradient(to bottom, #cbdbfa, #dde7fc);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #176dd6;
+    font-size: 18pt;
+    padding: 10px 20px 10px 20px;
+    margin: 3%;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #ffb8f4;
+    text-decoration: none;
+}
